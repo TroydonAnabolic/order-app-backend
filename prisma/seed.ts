@@ -8,7 +8,7 @@ async function seed() {
     prisma.user.create({
       data: {
         email: "troyincarnate@gmail.com",
-        firebaseUid: "8iKSeWXKjzSQnAJs0nLfgjP017j1",
+        firebaseUid: "puQ5ijlHVjMM8KEjqyFJ32vIYZ12",
         givenName: "Super",
         familyName: "Admin",
         phoneNumber: "+64212345678",
