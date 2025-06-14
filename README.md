@@ -40,10 +40,13 @@ This directory contains example API routes for the headless API app.
 For more details, see [route.js file convention](https://nextjs.org/docs/app/api-reference/file-conventions/route).
 
 Prisma migrate
-prisma migrate dev --name init
+npx prisma migrate dev --name init
 
 Prisma generate
 npx prisma generate
 
 reset all migrations and delete data
 npx prisma migrate reset
+
+seed data
+npx prisma db seed
